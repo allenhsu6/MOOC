@@ -13,11 +13,8 @@ CMakeFiles/learnc.dir/Student.c.o: ../Student.h
 CMakeFiles/learnc.dir/Tree.c.o: ../Tree.c
 CMakeFiles/learnc.dir/Tree.c.o: ../Tree.h
 
-CMakeFiles/learnc.dir/main.c.o: ../BinarySearch.h
-CMakeFiles/learnc.dir/main.c.o: ../Search.h
 CMakeFiles/learnc.dir/main.c.o: ../Student.h
 CMakeFiles/learnc.dir/main.c.o: ../main.c
-CMakeFiles/learnc.dir/main.c.o: ../poly.h
 
 CMakeFiles/learnc.dir/poly.c.o: ../poly.c
 CMakeFiles/learnc.dir/poly.c.o: ../poly.h

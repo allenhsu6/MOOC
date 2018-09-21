@@ -86,12 +86,6 @@
 		<Unit filename="/Users/allenhsu/CLionProjects/learnc/BinarySearch.h">
 			<Option target="learnc"/>
 		</Unit>
-		<Unit filename="/Users/allenhsu/CLionProjects/learnc/List.c">
-			<Option target="learnc"/>
-		</Unit>
-		<Unit filename="/Users/allenhsu/CLionProjects/learnc/List.h">
-			<Option target="learnc"/>
-		</Unit>
 		<Unit filename="/Users/allenhsu/CLionProjects/learnc/Search.c">
 			<Option target="learnc"/>
 		</Unit>
