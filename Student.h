@@ -21,6 +21,7 @@ struct Student *pHead; // 定义一个学生头
 
 struct Student* Create();
 void Print(struct Student* pTemp);
-
+struct Student* Insert(struct Student* pHead);
+struct Student* Delete(struct Student* pHead, int iIndex);
 
 #endif //LEARNC_STUDENT_H

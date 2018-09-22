@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/allenhsu/CLionProjects/learnc/Student.c
-Student.h
-/Users/allenhsu/CLionProjects/learnc/Student.h
-
 /Users/allenhsu/CLionProjects/learnc/Student.h
 stdlib.h
 -

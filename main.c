@@ -15,10 +15,9 @@
 
 int main(){
    struct Student *student = Create();
-   Print(student);
-   struct Student *Temp = pHead;
-   printf("%d\n", pHead->iNumber);
-
+   struct Student *head = Insert(student);
+   struct Student *pHead = Delete(head, 1);
+   Print(pHead);
 
 
     // 关于结构体怎么用指针取出对应位置的值
