@@ -4,17 +4,22 @@
 CMakeFiles/learnc.dir/BinarySearch.c.o
  /Users/allenhsu/CLionProjects/learnc/BinarySearch.c
  /Users/allenhsu/CLionProjects/learnc/BinarySearch.h
+CMakeFiles/learnc.dir/LearnList.c.o
+ /Users/allenhsu/CLionProjects/learnc/LearnList.c
+ /Users/allenhsu/CLionProjects/learnc/LearnList.h
+CMakeFiles/learnc.dir/List.c.o
+ /Users/allenhsu/CLionProjects/learnc/List.c
+ /Users/allenhsu/CLionProjects/learnc/List.h
 CMakeFiles/learnc.dir/Search.c.o
  /Users/allenhsu/CLionProjects/learnc/Search.c
  /Users/allenhsu/CLionProjects/learnc/Search.h
 CMakeFiles/learnc.dir/Student.c.o
  /Users/allenhsu/CLionProjects/learnc/Student.c
- /Users/allenhsu/CLionProjects/learnc/Student.h
 CMakeFiles/learnc.dir/Tree.c.o
  /Users/allenhsu/CLionProjects/learnc/Tree.c
  /Users/allenhsu/CLionProjects/learnc/Tree.h
 CMakeFiles/learnc.dir/main.c.o
- /Users/allenhsu/CLionProjects/learnc/Student.h
+ /Users/allenhsu/CLionProjects/learnc/LearnList.h
  /Users/allenhsu/CLionProjects/learnc/main.c
 CMakeFiles/learnc.dir/poly.c.o
  /Users/allenhsu/CLionProjects/learnc/poly.c

@@ -2,7 +2,24 @@
 // Created by allenhsu on 2018/9/17.
 //
 
-#include "Student.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+struct Student {
+    char cName[20];  // 名字
+    int iNumber;     // 学号
+    struct Student *pNext;
+};
+
+
+
+int iCount;// 计算总数
+struct Student *pHead; // 定义一个学生头
+
+struct Student* Create();
+void Print(struct Student* pTemp);
+struct Student* Insert(struct Student* pHead);
+struct Student* Delete(struct Student* pHead, int iIndex);
 
 
 struct Student* Create(){
@@ -41,15 +58,15 @@ struct Student* Create(){
 
 // 这里之前加入temp， 只是为了防止破坏head，但是作用域仅限于该函数  函数里面传入的这个pHead，跟全局定义的pHead毫无瓜葛
 // 所以我这个函数，就算不传入参数也可以实现打印操作
-void Print(struct Student* pHead){
-    printf("---this List has %d members:---\n",iCount);
-    while (pHead != NULL){
-        printf("%s\n", pHead->cName);
-        printf("%d\n", pHead->iNumber);
-        printf("\n");
-        pHead = pHead->pNext;
-    }
-}
+//void Print(struct Student* pHead){
+//    printf("---this List has %d members:---\n",iCount);
+//    while (pHead != NULL){
+//        printf("%s\n", pHead->cName);
+//        printf("%d\n", pHead->iNumber);
+//        printf("\n");
+//        pHead = pHead->pNext;
+//    }
+//}
 
 struct Student* Insert(struct Student* pHead){
     printf("插入列表到队头\n");
@@ -94,29 +111,29 @@ struct Student* Delete(struct Student* pHead, int iIndex){
 
 }
 
-struct Student* Merge( struct Student* pHead1, struct Student* pHead2 ){
-    struct Student *temp1, *temp2, *pNew;
-    temp1 = pHead1;
-    temp2 = pHead2;
-    while (temp1){
-        int a = temp1->iNumber;
-        pNew = (struct Student*)malloc(sizeof(struct Student));
-        pNew->iNumber = a;
-
-        while (temp2){
-            if(a < temp2->iNumber){    // L1中当前元素在L2中的状态
-                if(temp2 == pHead2){  // 如果L1中元素在L2的队首的情况
-
-                    pNew->pNext = pHead2;
-                    pHead2 = pNew;
-                } else{
-
-                }
-            } else{
-                temp2 = temp2->pNext;
-            }
-        }
-      temp1 = temp1->pNext;
-  }
-    return  NULL;
-}
+//struct Student* Merge( struct Student* pHead1, struct Student* pHead2 ){
+//    struct Student *temp1, *temp2, *pNew;
+//    temp1 = pHead1;
+//    temp2 = pHead2;
+//    while (temp1){
+//        int a = temp1->iNumber;
+//        pNew = (struct Student*)malloc(sizeof(struct Student));
+//        pNew->iNumber = a;
+//
+//        while (temp2){
+//            if(a < temp2->iNumber){    // L1中当前元素在L2中的状态
+//                if(temp2 == pHead2){  // 如果L1中元素在L2的队首的情况
+//
+//                    pNew->pNext = pHead2;
+//                    pHead2 = pNew;
+//                } else{
+//
+//                }
+//            } else{
+//                temp2 = temp2->pNext;
+//            }
+//        }
+//      temp1 = temp1->pNext;
+//  }
+//    return  NULL;
+//}

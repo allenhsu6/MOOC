@@ -4,16 +4,21 @@
 CMakeFiles/learnc.dir/BinarySearch.c.o: ../BinarySearch.c
 CMakeFiles/learnc.dir/BinarySearch.c.o: ../BinarySearch.h
 
+CMakeFiles/learnc.dir/LearnList.c.o: ../LearnList.c
+CMakeFiles/learnc.dir/LearnList.c.o: ../LearnList.h
+
+CMakeFiles/learnc.dir/List.c.o: ../List.c
+CMakeFiles/learnc.dir/List.c.o: ../List.h
+
 CMakeFiles/learnc.dir/Search.c.o: ../Search.c
 CMakeFiles/learnc.dir/Search.c.o: ../Search.h
 
 CMakeFiles/learnc.dir/Student.c.o: ../Student.c
-CMakeFiles/learnc.dir/Student.c.o: ../Student.h
 
 CMakeFiles/learnc.dir/Tree.c.o: ../Tree.c
 CMakeFiles/learnc.dir/Tree.c.o: ../Tree.h
 
-CMakeFiles/learnc.dir/main.c.o: ../Student.h
+CMakeFiles/learnc.dir/main.c.o: ../LearnList.h
 CMakeFiles/learnc.dir/main.c.o: ../main.c
 
 CMakeFiles/learnc.dir/poly.c.o: ../poly.c

@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-typedef struct PolyNode *Polynomial;
+typedef struct PolyNode *Polynomial; // 多项式本身就是一个指针
 struct PolyNode{
     int coef;  // 系数
     int expon; // 指数

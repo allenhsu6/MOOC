@@ -3,21 +3,13 @@
  * 第一步，构建结构体，搭建框架，写出要用到的函数签名
  * 第二步，每个函数的程序框架，逐步填充
  */
+#include "List.h"
 
-//#include "poly.h"
-#include <string.h>
-#include "Student.h"
-//#include "Search.h"
-//#include "BinarySearch.h"
+int main()
+{
 
-
-
-
-int main(){
-   struct Student *student = Create();
-   struct Student *head = Insert(student);
-   struct Student *pHead = Delete(head, 1);
-   Print(pHead);
+    return 0;
+}
 
 
     // 关于结构体怎么用指针取出对应位置的值
@@ -49,6 +41,3 @@ int main(){
 //        printf("%d\n", *(a++));   // 在数组中可以这样使用，但是出了结构体中就是非法的
 //    }
 
-    return 0;
-
-}

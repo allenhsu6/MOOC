@@ -150,6 +150,60 @@ BinarySearch.c.s:
 	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/BinarySearch.c.s
 .PHONY : BinarySearch.c.s
 
+LearnList.o: LearnList.c.o
+
+.PHONY : LearnList.o
+
+# target to build an object file
+LearnList.c.o:
+	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/LearnList.c.o
+.PHONY : LearnList.c.o
+
+LearnList.i: LearnList.c.i
+
+.PHONY : LearnList.i
+
+# target to preprocess a source file
+LearnList.c.i:
+	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/LearnList.c.i
+.PHONY : LearnList.c.i
+
+LearnList.s: LearnList.c.s
+
+.PHONY : LearnList.s
+
+# target to generate assembly for a file
+LearnList.c.s:
+	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/LearnList.c.s
+.PHONY : LearnList.c.s
+
+List.o: List.c.o
+
+.PHONY : List.o
+
+# target to build an object file
+List.c.o:
+	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/List.c.o
+.PHONY : List.c.o
+
+List.i: List.c.i
+
+.PHONY : List.i
+
+# target to preprocess a source file
+List.c.i:
+	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/List.c.i
+.PHONY : List.c.i
+
+List.s: List.c.s
+
+.PHONY : List.s
+
+# target to generate assembly for a file
+List.c.s:
+	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/List.c.s
+.PHONY : List.c.s
+
 Search.o: Search.c.o
 
 .PHONY : Search.o
@@ -297,6 +351,12 @@ help:
 	@echo "... BinarySearch.o"
 	@echo "... BinarySearch.i"
 	@echo "... BinarySearch.s"
+	@echo "... LearnList.o"
+	@echo "... LearnList.i"
+	@echo "... LearnList.s"
+	@echo "... List.o"
+	@echo "... List.i"
+	@echo "... List.s"
 	@echo "... Search.o"
 	@echo "... Search.i"
 	@echo "... Search.s"
