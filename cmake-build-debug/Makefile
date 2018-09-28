@@ -150,33 +150,6 @@ BinarySearch.c.s:
 	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/BinarySearch.c.s
 .PHONY : BinarySearch.c.s
 
-LearnList.o: LearnList.c.o
-
-.PHONY : LearnList.o
-
-# target to build an object file
-LearnList.c.o:
-	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/LearnList.c.o
-.PHONY : LearnList.c.o
-
-LearnList.i: LearnList.c.i
-
-.PHONY : LearnList.i
-
-# target to preprocess a source file
-LearnList.c.i:
-	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/LearnList.c.i
-.PHONY : LearnList.c.i
-
-LearnList.s: LearnList.c.s
-
-.PHONY : LearnList.s
-
-# target to generate assembly for a file
-LearnList.c.s:
-	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/LearnList.c.s
-.PHONY : LearnList.c.s
-
 List.o: List.c.o
 
 .PHONY : List.o
@@ -230,6 +203,60 @@ Search.s: Search.c.s
 Search.c.s:
 	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/Search.c.s
 .PHONY : Search.c.s
+
+Stack.o: Stack.c.o
+
+.PHONY : Stack.o
+
+# target to build an object file
+Stack.c.o:
+	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/Stack.c.o
+.PHONY : Stack.c.o
+
+Stack.i: Stack.c.i
+
+.PHONY : Stack.i
+
+# target to preprocess a source file
+Stack.c.i:
+	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/Stack.c.i
+.PHONY : Stack.c.i
+
+Stack.s: Stack.c.s
+
+.PHONY : Stack.s
+
+# target to generate assembly for a file
+Stack.c.s:
+	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/Stack.c.s
+.PHONY : Stack.c.s
+
+StructTree.o: StructTree.c.o
+
+.PHONY : StructTree.o
+
+# target to build an object file
+StructTree.c.o:
+	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/StructTree.c.o
+.PHONY : StructTree.c.o
+
+StructTree.i: StructTree.c.i
+
+.PHONY : StructTree.i
+
+# target to preprocess a source file
+StructTree.c.i:
+	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/StructTree.c.i
+.PHONY : StructTree.c.i
+
+StructTree.s: StructTree.c.s
+
+.PHONY : StructTree.s
+
+# target to generate assembly for a file
+StructTree.c.s:
+	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/StructTree.c.s
+.PHONY : StructTree.c.s
 
 Student.o: Student.c.o
 
@@ -351,15 +378,18 @@ help:
 	@echo "... BinarySearch.o"
 	@echo "... BinarySearch.i"
 	@echo "... BinarySearch.s"
-	@echo "... LearnList.o"
-	@echo "... LearnList.i"
-	@echo "... LearnList.s"
 	@echo "... List.o"
 	@echo "... List.i"
 	@echo "... List.s"
 	@echo "... Search.o"
 	@echo "... Search.i"
 	@echo "... Search.s"
+	@echo "... Stack.o"
+	@echo "... Stack.i"
+	@echo "... Stack.s"
+	@echo "... StructTree.o"
+	@echo "... StructTree.i"
+	@echo "... StructTree.s"
 	@echo "... Student.o"
 	@echo "... Student.i"
 	@echo "... Student.s"

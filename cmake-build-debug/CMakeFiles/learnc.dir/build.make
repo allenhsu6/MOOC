@@ -148,18 +148,31 @@ CMakeFiles/learnc.dir/List.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/learnc.dir/List.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/allenhsu/CLionProjects/learnc/List.c -o CMakeFiles/learnc.dir/List.c.s
 
-CMakeFiles/learnc.dir/LearnList.c.o: CMakeFiles/learnc.dir/flags.make
-CMakeFiles/learnc.dir/LearnList.c.o: ../LearnList.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/learnc.dir/LearnList.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/learnc.dir/LearnList.c.o   -c /Users/allenhsu/CLionProjects/learnc/LearnList.c
+CMakeFiles/learnc.dir/Stack.c.o: CMakeFiles/learnc.dir/flags.make
+CMakeFiles/learnc.dir/Stack.c.o: ../Stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/learnc.dir/Stack.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/learnc.dir/Stack.c.o   -c /Users/allenhsu/CLionProjects/learnc/Stack.c
 
-CMakeFiles/learnc.dir/LearnList.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/learnc.dir/LearnList.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/allenhsu/CLionProjects/learnc/LearnList.c > CMakeFiles/learnc.dir/LearnList.c.i
+CMakeFiles/learnc.dir/Stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/learnc.dir/Stack.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/allenhsu/CLionProjects/learnc/Stack.c > CMakeFiles/learnc.dir/Stack.c.i
 
-CMakeFiles/learnc.dir/LearnList.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/learnc.dir/LearnList.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/allenhsu/CLionProjects/learnc/LearnList.c -o CMakeFiles/learnc.dir/LearnList.c.s
+CMakeFiles/learnc.dir/Stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/learnc.dir/Stack.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/allenhsu/CLionProjects/learnc/Stack.c -o CMakeFiles/learnc.dir/Stack.c.s
+
+CMakeFiles/learnc.dir/StructTree.c.o: CMakeFiles/learnc.dir/flags.make
+CMakeFiles/learnc.dir/StructTree.c.o: ../StructTree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/learnc.dir/StructTree.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/learnc.dir/StructTree.c.o   -c /Users/allenhsu/CLionProjects/learnc/StructTree.c
+
+CMakeFiles/learnc.dir/StructTree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/learnc.dir/StructTree.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/allenhsu/CLionProjects/learnc/StructTree.c > CMakeFiles/learnc.dir/StructTree.c.i
+
+CMakeFiles/learnc.dir/StructTree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/learnc.dir/StructTree.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/allenhsu/CLionProjects/learnc/StructTree.c -o CMakeFiles/learnc.dir/StructTree.c.s
 
 # Object files for target learnc
 learnc_OBJECTS = \
@@ -170,7 +183,8 @@ learnc_OBJECTS = \
 "CMakeFiles/learnc.dir/Search.c.o" \
 "CMakeFiles/learnc.dir/Tree.c.o" \
 "CMakeFiles/learnc.dir/List.c.o" \
-"CMakeFiles/learnc.dir/LearnList.c.o"
+"CMakeFiles/learnc.dir/Stack.c.o" \
+"CMakeFiles/learnc.dir/StructTree.c.o"
 
 # External object files for target learnc
 learnc_EXTERNAL_OBJECTS =
@@ -182,10 +196,11 @@ learnc: CMakeFiles/learnc.dir/Student.c.o
 learnc: CMakeFiles/learnc.dir/Search.c.o
 learnc: CMakeFiles/learnc.dir/Tree.c.o
 learnc: CMakeFiles/learnc.dir/List.c.o
-learnc: CMakeFiles/learnc.dir/LearnList.c.o
+learnc: CMakeFiles/learnc.dir/Stack.c.o
+learnc: CMakeFiles/learnc.dir/StructTree.c.o
 learnc: CMakeFiles/learnc.dir/build.make
 learnc: CMakeFiles/learnc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable learnc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable learnc"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/learnc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -6,7 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/learnc.dir/Search.c.o"
   "CMakeFiles/learnc.dir/Tree.c.o"
   "CMakeFiles/learnc.dir/List.c.o"
-  "CMakeFiles/learnc.dir/LearnList.c.o"
+  "CMakeFiles/learnc.dir/Stack.c.o"
+  "CMakeFiles/learnc.dir/StructTree.c.o"
   "learnc.pdb"
   "learnc"
 )

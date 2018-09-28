@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/allenhsu/CLionProjects/learnc/LearnList.h
+/Users/allenhsu/CLionProjects/learnc/main.c
+poly.h
+/Users/allenhsu/CLionProjects/learnc/poly.h
+
+/Users/allenhsu/CLionProjects/learnc/poly.h
 stdio.h
 -
 stdlib.h
 -
-
-/Users/allenhsu/CLionProjects/learnc/main.c
-LearnList.h
-/Users/allenhsu/CLionProjects/learnc/LearnList.h
 

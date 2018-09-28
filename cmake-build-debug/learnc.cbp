@@ -86,12 +86,6 @@
 		<Unit filename="/Users/allenhsu/CLionProjects/learnc/BinarySearch.h">
 			<Option target="learnc"/>
 		</Unit>
-		<Unit filename="/Users/allenhsu/CLionProjects/learnc/LearnList.c">
-			<Option target="learnc"/>
-		</Unit>
-		<Unit filename="/Users/allenhsu/CLionProjects/learnc/LearnList.h">
-			<Option target="learnc"/>
-		</Unit>
 		<Unit filename="/Users/allenhsu/CLionProjects/learnc/List.c">
 			<Option target="learnc"/>
 		</Unit>
@@ -102,6 +96,18 @@
 			<Option target="learnc"/>
 		</Unit>
 		<Unit filename="/Users/allenhsu/CLionProjects/learnc/Search.h">
+			<Option target="learnc"/>
+		</Unit>
+		<Unit filename="/Users/allenhsu/CLionProjects/learnc/Stack.c">
+			<Option target="learnc"/>
+		</Unit>
+		<Unit filename="/Users/allenhsu/CLionProjects/learnc/Stack.h">
+			<Option target="learnc"/>
+		</Unit>
+		<Unit filename="/Users/allenhsu/CLionProjects/learnc/StructTree.c">
+			<Option target="learnc"/>
+		</Unit>
+		<Unit filename="/Users/allenhsu/CLionProjects/learnc/StructTree.h">
 			<Option target="learnc"/>
 		</Unit>
 		<Unit filename="/Users/allenhsu/CLionProjects/learnc/Student.c">

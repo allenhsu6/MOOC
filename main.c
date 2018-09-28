@@ -3,10 +3,31 @@
  * 第一步，构建结构体，搭建框架，写出要用到的函数签名
  * 第二步，每个函数的程序框架，逐步填充
  */
-#include "List.h"
+#include "poly.h"
+
+void Test(Polynomial *p, Polynomial p2){
+    Polynomial pp;
+    pp = (Polynomial)malloc(sizeof(Polynomial));
+    pp->expon = 3;
+    pp->coef = 2;
+    pp->link = NULL;
+    (*p)->link = pp;
+    *p = pp;
+    p2->link = pp;
+    p2 = pp;
+}
 
 int main()
 {
+    Polynomial p, temp1, temp2;
+    p = (Polynomial)malloc(sizeof(Polynomial));
+    p->coef = 4;
+    p->expon = 5;
+    temp1 = p;
+    temp2 = p;
+    Test(&temp1, temp2); // 修改内容，我们要传地址； 修改地址，我们要传地址的地址！！！
+    PrintPoly(temp1);
+    PrintPoly(temp2);
 
     return 0;
 }
