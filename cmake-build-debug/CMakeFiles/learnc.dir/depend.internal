@@ -10,6 +10,9 @@ CMakeFiles/learnc.dir/List.c.o
 CMakeFiles/learnc.dir/Search.c.o
  /Users/allenhsu/CLionProjects/learnc/Search.c
  /Users/allenhsu/CLionProjects/learnc/Search.h
+CMakeFiles/learnc.dir/Stack.c.o
+ /Users/allenhsu/CLionProjects/learnc/Stack.c
+ /Users/allenhsu/CLionProjects/learnc/Stack.h
 CMakeFiles/learnc.dir/Student.c.o
  /Users/allenhsu/CLionProjects/learnc/Student.c
 CMakeFiles/learnc.dir/Tree.c.o
@@ -17,7 +20,6 @@ CMakeFiles/learnc.dir/Tree.c.o
  /Users/allenhsu/CLionProjects/learnc/Tree.h
 CMakeFiles/learnc.dir/main.c.o
  /Users/allenhsu/CLionProjects/learnc/main.c
- /Users/allenhsu/CLionProjects/learnc/poly.h
 CMakeFiles/learnc.dir/poly.c.o
  /Users/allenhsu/CLionProjects/learnc/poly.c
  /Users/allenhsu/CLionProjects/learnc/poly.h

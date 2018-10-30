@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named learntree
+
+# Build rule for target.
+learntree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learntree
+.PHONY : learntree
+
+# fast build rule for target.
+learntree/fast:
+	$(MAKE) -f CMakeFiles/learntree.dir/build.make CMakeFiles/learntree.dir/build
+.PHONY : learntree/fast
+
+#=============================================================================
 # Target rules for targets named learnc
 
 # Build rule for target.
@@ -237,7 +250,7 @@ StructTree.o: StructTree.c.o
 
 # target to build an object file
 StructTree.c.o:
-	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/StructTree.c.o
+	$(MAKE) -f CMakeFiles/learntree.dir/build.make CMakeFiles/learntree.dir/StructTree.c.o
 .PHONY : StructTree.c.o
 
 StructTree.i: StructTree.c.i
@@ -246,7 +259,7 @@ StructTree.i: StructTree.c.i
 
 # target to preprocess a source file
 StructTree.c.i:
-	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/StructTree.c.i
+	$(MAKE) -f CMakeFiles/learntree.dir/build.make CMakeFiles/learntree.dir/StructTree.c.i
 .PHONY : StructTree.c.i
 
 StructTree.s: StructTree.c.s
@@ -255,7 +268,7 @@ StructTree.s: StructTree.c.s
 
 # target to generate assembly for a file
 StructTree.c.s:
-	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/StructTree.c.s
+	$(MAKE) -f CMakeFiles/learntree.dir/build.make CMakeFiles/learntree.dir/StructTree.c.s
 .PHONY : StructTree.c.s
 
 Student.o: Student.c.o
@@ -374,6 +387,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... learntree"
 	@echo "... learnc"
 	@echo "... BinarySearch.o"
 	@echo "... BinarySearch.i"

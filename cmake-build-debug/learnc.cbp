@@ -37,6 +37,48 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="learntree">
+				<Option output="/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/learntree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allenhsu/CLionProjects/learnc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/Makefile&quot;  VERBOSE=1 learntree"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="learntree/fast">
+				<Option output="/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/learntree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allenhsu/CLionProjects/learnc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/Makefile&quot;  VERBOSE=1 learntree/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="learnc">
 				<Option output="/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/learnc" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/allenhsu/CLionProjects/learnc/cmake-build-debug"/>
@@ -105,10 +147,7 @@
 			<Option target="learnc"/>
 		</Unit>
 		<Unit filename="/Users/allenhsu/CLionProjects/learnc/StructTree.c">
-			<Option target="learnc"/>
-		</Unit>
-		<Unit filename="/Users/allenhsu/CLionProjects/learnc/StructTree.h">
-			<Option target="learnc"/>
+			<Option target="learntree"/>
 		</Unit>
 		<Unit filename="/Users/allenhsu/CLionProjects/learnc/Student.c">
 			<Option target="learnc"/>

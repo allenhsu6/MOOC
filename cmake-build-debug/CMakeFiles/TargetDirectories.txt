@@ -1,3 +1,4 @@
 /Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles/learntree.dir
 /Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles/learnc.dir

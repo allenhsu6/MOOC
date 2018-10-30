@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/allenhsu/CLionProjects/learnc/List.c" "/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles/learnc.dir/List.c.o"
   "/Users/allenhsu/CLionProjects/learnc/Search.c" "/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles/learnc.dir/Search.c.o"
   "/Users/allenhsu/CLionProjects/learnc/Stack.c" "/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles/learnc.dir/Stack.c.o"
-  "/Users/allenhsu/CLionProjects/learnc/StructTree.c" "/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles/learnc.dir/StructTree.c.o"
   "/Users/allenhsu/CLionProjects/learnc/Student.c" "/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles/learnc.dir/Student.c.o"
   "/Users/allenhsu/CLionProjects/learnc/Tree.c" "/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles/learnc.dir/Tree.c.o"
   "/Users/allenhsu/CLionProjects/learnc/main.c" "/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles/learnc.dir/main.c.o"

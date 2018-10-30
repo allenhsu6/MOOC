@@ -65,13 +65,50 @@ CMAKE_SOURCE_DIR = /Users/allenhsu/CLionProjects/learnc
 CMAKE_BINARY_DIR = /Users/allenhsu/CLionProjects/learnc/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/learntree.dir
+
+# All Build rule for target.
+CMakeFiles/learntree.dir/all:
+	$(MAKE) -f CMakeFiles/learntree.dir/build.make CMakeFiles/learntree.dir/depend
+	$(MAKE) -f CMakeFiles/learntree.dir/build.make CMakeFiles/learntree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target learntree"
+.PHONY : CMakeFiles/learntree.dir/all
+
+# Include target in all.
+all: CMakeFiles/learntree.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/learntree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/learntree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/learntree.dir/rule
+
+# Convenience name for target.
+learntree: CMakeFiles/learntree.dir/rule
+
+.PHONY : learntree
+
+# clean rule for target.
+CMakeFiles/learntree.dir/clean:
+	$(MAKE) -f CMakeFiles/learntree.dir/build.make CMakeFiles/learntree.dir/clean
+.PHONY : CMakeFiles/learntree.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/learntree.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/learnc.dir
 
 # All Build rule for target.
 CMakeFiles/learnc.dir/all:
 	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/depend
 	$(MAKE) -f CMakeFiles/learnc.dir/build.make CMakeFiles/learnc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target learnc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target learnc"
 .PHONY : CMakeFiles/learnc.dir/all
 
 # Include target in all.
@@ -81,7 +118,7 @@ all: CMakeFiles/learnc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/learnc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/learnc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/learnc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/learnc.dir/rule

@@ -10,13 +10,15 @@ CMakeFiles/learnc.dir/List.c.o: ../List.h
 CMakeFiles/learnc.dir/Search.c.o: ../Search.c
 CMakeFiles/learnc.dir/Search.c.o: ../Search.h
 
+CMakeFiles/learnc.dir/Stack.c.o: ../Stack.c
+CMakeFiles/learnc.dir/Stack.c.o: ../Stack.h
+
 CMakeFiles/learnc.dir/Student.c.o: ../Student.c
 
 CMakeFiles/learnc.dir/Tree.c.o: ../Tree.c
 CMakeFiles/learnc.dir/Tree.c.o: ../Tree.h
 
 CMakeFiles/learnc.dir/main.c.o: ../main.c
-CMakeFiles/learnc.dir/main.c.o: ../poly.h
 
 CMakeFiles/learnc.dir/poly.c.o: ../poly.c
 CMakeFiles/learnc.dir/poly.c.o: ../poly.h
