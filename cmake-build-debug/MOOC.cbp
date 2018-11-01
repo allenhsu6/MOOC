@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MOOC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ListLeaves">
+				<Option output="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/ListLeaves" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 ListLeaves"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ListLeaves/fast">
+				<Option output="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/ListLeaves" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 ListLeaves/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TreeTravesal">
+				<Option output="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/TreeTravesal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 TreeTravesal"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TreeTravesal/fast">
+				<Option output="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/TreeTravesal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 TreeTravesal/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BinTree">
+				<Option output="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/BinTree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 BinTree"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BinTree/fast">
+				<Option output="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/BinTree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 BinTree/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MOOC">
+				<Option output="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/MOOC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 MOOC"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MOOC/fast">
+				<Option output="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/MOOC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 MOOC/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/allenhsu/CLionProjects/MOOC/BinTree.cpp">
+			<Option target="BinTree"/>
+		</Unit>
+		<Unit filename="/Users/allenhsu/CLionProjects/MOOC/ListLeaves.cpp">
+			<Option target="ListLeaves"/>
+		</Unit>
+		<Unit filename="/Users/allenhsu/CLionProjects/MOOC/TreeTravesal.cpp">
+			<Option target="TreeTravesal"/>
+		</Unit>
+		<Unit filename="/Users/allenhsu/CLionProjects/MOOC/main.cpp">
+			<Option target="MOOC"/>
+		</Unit>
+		<Unit filename="/Users/allenhsu/CLionProjects/MOOC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
