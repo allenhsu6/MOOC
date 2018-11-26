@@ -4,7 +4,6 @@
 // 从大到小的细分，main函数怎么写，小函数就怎么写
 #include <iostream>
 
-
 using namespace std;
 
 typedef struct BinTree *Tree;

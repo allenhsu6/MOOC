@@ -111,17 +111,147 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ListLeaves
+# Target rules for targets named ConnectedSet
 
 # Build rule for target.
-ListLeaves: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ListLeaves
-.PHONY : ListLeaves
+ConnectedSet: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ConnectedSet
+.PHONY : ConnectedSet
 
 # fast build rule for target.
-ListLeaves/fast:
-	$(MAKE) -f CMakeFiles/ListLeaves.dir/build.make CMakeFiles/ListLeaves.dir/build
-.PHONY : ListLeaves/fast
+ConnectedSet/fast:
+	$(MAKE) -f CMakeFiles/ConnectedSet.dir/build.make CMakeFiles/ConnectedSet.dir/build
+.PHONY : ConnectedSet/fast
+
+#=============================================================================
+# Target rules for targets named popsequence
+
+# Build rule for target.
+popsequence: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 popsequence
+.PHONY : popsequence
+
+# fast build rule for target.
+popsequence/fast:
+	$(MAKE) -f CMakeFiles/popsequence.dir/build.make CMakeFiles/popsequence.dir/build
+.PHONY : popsequence/fast
+
+#=============================================================================
+# Target rules for targets named MaxHeap
+
+# Build rule for target.
+MaxHeap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MaxHeap
+.PHONY : MaxHeap
+
+# fast build rule for target.
+MaxHeap/fast:
+	$(MAKE) -f CMakeFiles/MaxHeap.dir/build.make CMakeFiles/MaxHeap.dir/build
+.PHONY : MaxHeap/fast
+
+#=============================================================================
+# Target rules for targets named FileTransfer
+
+# Build rule for target.
+FileTransfer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FileTransfer
+.PHONY : FileTransfer
+
+# fast build rule for target.
+FileTransfer/fast:
+	$(MAKE) -f CMakeFiles/FileTransfer.dir/build.make CMakeFiles/FileTransfer.dir/build
+.PHONY : FileTransfer/fast
+
+#=============================================================================
+# Target rules for targets named HuffmanTree
+
+# Build rule for target.
+HuffmanTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HuffmanTree
+.PHONY : HuffmanTree
+
+# fast build rule for target.
+HuffmanTree/fast:
+	$(MAKE) -f CMakeFiles/HuffmanTree.dir/build.make CMakeFiles/HuffmanTree.dir/build
+.PHONY : HuffmanTree/fast
+
+#=============================================================================
+# Target rules for targets named Graph
+
+# Build rule for target.
+Graph: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Graph
+.PHONY : Graph
+
+# fast build rule for target.
+Graph/fast:
+	$(MAKE) -f CMakeFiles/Graph.dir/build.make CMakeFiles/Graph.dir/build
+.PHONY : Graph/fast
+
+#=============================================================================
+# Target rules for targets named RootOfAVL
+
+# Build rule for target.
+RootOfAVL: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RootOfAVL
+.PHONY : RootOfAVL
+
+# fast build rule for target.
+RootOfAVL/fast:
+	$(MAKE) -f CMakeFiles/RootOfAVL.dir/build.make CMakeFiles/RootOfAVL.dir/build
+.PHONY : RootOfAVL/fast
+
+#=============================================================================
+# Target rules for targets named ReverseLinkedList
+
+# Build rule for target.
+ReverseLinkedList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ReverseLinkedList
+.PHONY : ReverseLinkedList
+
+# fast build rule for target.
+ReverseLinkedList/fast:
+	$(MAKE) -f CMakeFiles/ReverseLinkedList.dir/build.make CMakeFiles/ReverseLinkedList.dir/build
+.PHONY : ReverseLinkedList/fast
+
+#=============================================================================
+# Target rules for targets named CompleteBinTree
+
+# Build rule for target.
+CompleteBinTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CompleteBinTree
+.PHONY : CompleteBinTree
+
+# fast build rule for target.
+CompleteBinTree/fast:
+	$(MAKE) -f CMakeFiles/CompleteBinTree.dir/build.make CMakeFiles/CompleteBinTree.dir/build
+.PHONY : CompleteBinTree/fast
+
+#=============================================================================
+# Target rules for targets named BinTreeOperator
+
+# Build rule for target.
+BinTreeOperator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BinTreeOperator
+.PHONY : BinTreeOperator
+
+# fast build rule for target.
+BinTreeOperator/fast:
+	$(MAKE) -f CMakeFiles/BinTreeOperator.dir/build.make CMakeFiles/BinTreeOperator.dir/build
+.PHONY : BinTreeOperator/fast
+
+#=============================================================================
+# Target rules for targets named BinTree
+
+# Build rule for target.
+BinTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BinTree
+.PHONY : BinTree
+
+# fast build rule for target.
+BinTree/fast:
+	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/build
+.PHONY : BinTree/fast
 
 #=============================================================================
 # Target rules for targets named TreeTravesal
@@ -137,17 +267,17 @@ TreeTravesal/fast:
 .PHONY : TreeTravesal/fast
 
 #=============================================================================
-# Target rules for targets named BinTree
+# Target rules for targets named ListLeaves
 
 # Build rule for target.
-BinTree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BinTree
-.PHONY : BinTree
+ListLeaves: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ListLeaves
+.PHONY : ListLeaves
 
 # fast build rule for target.
-BinTree/fast:
-	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/build
-.PHONY : BinTree/fast
+ListLeaves/fast:
+	$(MAKE) -f CMakeFiles/ListLeaves.dir/build.make CMakeFiles/ListLeaves.dir/build
+.PHONY : ListLeaves/fast
 
 #=============================================================================
 # Target rules for targets named MOOC
@@ -189,6 +319,168 @@ BinTree.cpp.s:
 	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/BinTree.cpp.s
 .PHONY : BinTree.cpp.s
 
+BinTreeOperator.o: BinTreeOperator.cpp.o
+
+.PHONY : BinTreeOperator.o
+
+# target to build an object file
+BinTreeOperator.cpp.o:
+	$(MAKE) -f CMakeFiles/BinTreeOperator.dir/build.make CMakeFiles/BinTreeOperator.dir/BinTreeOperator.cpp.o
+.PHONY : BinTreeOperator.cpp.o
+
+BinTreeOperator.i: BinTreeOperator.cpp.i
+
+.PHONY : BinTreeOperator.i
+
+# target to preprocess a source file
+BinTreeOperator.cpp.i:
+	$(MAKE) -f CMakeFiles/BinTreeOperator.dir/build.make CMakeFiles/BinTreeOperator.dir/BinTreeOperator.cpp.i
+.PHONY : BinTreeOperator.cpp.i
+
+BinTreeOperator.s: BinTreeOperator.cpp.s
+
+.PHONY : BinTreeOperator.s
+
+# target to generate assembly for a file
+BinTreeOperator.cpp.s:
+	$(MAKE) -f CMakeFiles/BinTreeOperator.dir/build.make CMakeFiles/BinTreeOperator.dir/BinTreeOperator.cpp.s
+.PHONY : BinTreeOperator.cpp.s
+
+CompleteBinTree.o: CompleteBinTree.cpp.o
+
+.PHONY : CompleteBinTree.o
+
+# target to build an object file
+CompleteBinTree.cpp.o:
+	$(MAKE) -f CMakeFiles/CompleteBinTree.dir/build.make CMakeFiles/CompleteBinTree.dir/CompleteBinTree.cpp.o
+.PHONY : CompleteBinTree.cpp.o
+
+CompleteBinTree.i: CompleteBinTree.cpp.i
+
+.PHONY : CompleteBinTree.i
+
+# target to preprocess a source file
+CompleteBinTree.cpp.i:
+	$(MAKE) -f CMakeFiles/CompleteBinTree.dir/build.make CMakeFiles/CompleteBinTree.dir/CompleteBinTree.cpp.i
+.PHONY : CompleteBinTree.cpp.i
+
+CompleteBinTree.s: CompleteBinTree.cpp.s
+
+.PHONY : CompleteBinTree.s
+
+# target to generate assembly for a file
+CompleteBinTree.cpp.s:
+	$(MAKE) -f CMakeFiles/CompleteBinTree.dir/build.make CMakeFiles/CompleteBinTree.dir/CompleteBinTree.cpp.s
+.PHONY : CompleteBinTree.cpp.s
+
+ConnectedSet.o: ConnectedSet.cpp.o
+
+.PHONY : ConnectedSet.o
+
+# target to build an object file
+ConnectedSet.cpp.o:
+	$(MAKE) -f CMakeFiles/ConnectedSet.dir/build.make CMakeFiles/ConnectedSet.dir/ConnectedSet.cpp.o
+.PHONY : ConnectedSet.cpp.o
+
+ConnectedSet.i: ConnectedSet.cpp.i
+
+.PHONY : ConnectedSet.i
+
+# target to preprocess a source file
+ConnectedSet.cpp.i:
+	$(MAKE) -f CMakeFiles/ConnectedSet.dir/build.make CMakeFiles/ConnectedSet.dir/ConnectedSet.cpp.i
+.PHONY : ConnectedSet.cpp.i
+
+ConnectedSet.s: ConnectedSet.cpp.s
+
+.PHONY : ConnectedSet.s
+
+# target to generate assembly for a file
+ConnectedSet.cpp.s:
+	$(MAKE) -f CMakeFiles/ConnectedSet.dir/build.make CMakeFiles/ConnectedSet.dir/ConnectedSet.cpp.s
+.PHONY : ConnectedSet.cpp.s
+
+FileTransfer.o: FileTransfer.cpp.o
+
+.PHONY : FileTransfer.o
+
+# target to build an object file
+FileTransfer.cpp.o:
+	$(MAKE) -f CMakeFiles/FileTransfer.dir/build.make CMakeFiles/FileTransfer.dir/FileTransfer.cpp.o
+.PHONY : FileTransfer.cpp.o
+
+FileTransfer.i: FileTransfer.cpp.i
+
+.PHONY : FileTransfer.i
+
+# target to preprocess a source file
+FileTransfer.cpp.i:
+	$(MAKE) -f CMakeFiles/FileTransfer.dir/build.make CMakeFiles/FileTransfer.dir/FileTransfer.cpp.i
+.PHONY : FileTransfer.cpp.i
+
+FileTransfer.s: FileTransfer.cpp.s
+
+.PHONY : FileTransfer.s
+
+# target to generate assembly for a file
+FileTransfer.cpp.s:
+	$(MAKE) -f CMakeFiles/FileTransfer.dir/build.make CMakeFiles/FileTransfer.dir/FileTransfer.cpp.s
+.PHONY : FileTransfer.cpp.s
+
+Graph.o: Graph.cpp.o
+
+.PHONY : Graph.o
+
+# target to build an object file
+Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/Graph.dir/build.make CMakeFiles/Graph.dir/Graph.cpp.o
+.PHONY : Graph.cpp.o
+
+Graph.i: Graph.cpp.i
+
+.PHONY : Graph.i
+
+# target to preprocess a source file
+Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/Graph.dir/build.make CMakeFiles/Graph.dir/Graph.cpp.i
+.PHONY : Graph.cpp.i
+
+Graph.s: Graph.cpp.s
+
+.PHONY : Graph.s
+
+# target to generate assembly for a file
+Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/Graph.dir/build.make CMakeFiles/Graph.dir/Graph.cpp.s
+.PHONY : Graph.cpp.s
+
+HuffmanTree.o: HuffmanTree.cpp.o
+
+.PHONY : HuffmanTree.o
+
+# target to build an object file
+HuffmanTree.cpp.o:
+	$(MAKE) -f CMakeFiles/HuffmanTree.dir/build.make CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.o
+.PHONY : HuffmanTree.cpp.o
+
+HuffmanTree.i: HuffmanTree.cpp.i
+
+.PHONY : HuffmanTree.i
+
+# target to preprocess a source file
+HuffmanTree.cpp.i:
+	$(MAKE) -f CMakeFiles/HuffmanTree.dir/build.make CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.i
+.PHONY : HuffmanTree.cpp.i
+
+HuffmanTree.s: HuffmanTree.cpp.s
+
+.PHONY : HuffmanTree.s
+
+# target to generate assembly for a file
+HuffmanTree.cpp.s:
+	$(MAKE) -f CMakeFiles/HuffmanTree.dir/build.make CMakeFiles/HuffmanTree.dir/HuffmanTree.cpp.s
+.PHONY : HuffmanTree.cpp.s
+
 ListLeaves.o: ListLeaves.cpp.o
 
 .PHONY : ListLeaves.o
@@ -215,6 +507,87 @@ ListLeaves.s: ListLeaves.cpp.s
 ListLeaves.cpp.s:
 	$(MAKE) -f CMakeFiles/ListLeaves.dir/build.make CMakeFiles/ListLeaves.dir/ListLeaves.cpp.s
 .PHONY : ListLeaves.cpp.s
+
+MaxHeap.o: MaxHeap.cpp.o
+
+.PHONY : MaxHeap.o
+
+# target to build an object file
+MaxHeap.cpp.o:
+	$(MAKE) -f CMakeFiles/MaxHeap.dir/build.make CMakeFiles/MaxHeap.dir/MaxHeap.cpp.o
+.PHONY : MaxHeap.cpp.o
+
+MaxHeap.i: MaxHeap.cpp.i
+
+.PHONY : MaxHeap.i
+
+# target to preprocess a source file
+MaxHeap.cpp.i:
+	$(MAKE) -f CMakeFiles/MaxHeap.dir/build.make CMakeFiles/MaxHeap.dir/MaxHeap.cpp.i
+.PHONY : MaxHeap.cpp.i
+
+MaxHeap.s: MaxHeap.cpp.s
+
+.PHONY : MaxHeap.s
+
+# target to generate assembly for a file
+MaxHeap.cpp.s:
+	$(MAKE) -f CMakeFiles/MaxHeap.dir/build.make CMakeFiles/MaxHeap.dir/MaxHeap.cpp.s
+.PHONY : MaxHeap.cpp.s
+
+ReverseLinkedList.o: ReverseLinkedList.cpp.o
+
+.PHONY : ReverseLinkedList.o
+
+# target to build an object file
+ReverseLinkedList.cpp.o:
+	$(MAKE) -f CMakeFiles/ReverseLinkedList.dir/build.make CMakeFiles/ReverseLinkedList.dir/ReverseLinkedList.cpp.o
+.PHONY : ReverseLinkedList.cpp.o
+
+ReverseLinkedList.i: ReverseLinkedList.cpp.i
+
+.PHONY : ReverseLinkedList.i
+
+# target to preprocess a source file
+ReverseLinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles/ReverseLinkedList.dir/build.make CMakeFiles/ReverseLinkedList.dir/ReverseLinkedList.cpp.i
+.PHONY : ReverseLinkedList.cpp.i
+
+ReverseLinkedList.s: ReverseLinkedList.cpp.s
+
+.PHONY : ReverseLinkedList.s
+
+# target to generate assembly for a file
+ReverseLinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles/ReverseLinkedList.dir/build.make CMakeFiles/ReverseLinkedList.dir/ReverseLinkedList.cpp.s
+.PHONY : ReverseLinkedList.cpp.s
+
+RootOfAVL.o: RootOfAVL.cpp.o
+
+.PHONY : RootOfAVL.o
+
+# target to build an object file
+RootOfAVL.cpp.o:
+	$(MAKE) -f CMakeFiles/RootOfAVL.dir/build.make CMakeFiles/RootOfAVL.dir/RootOfAVL.cpp.o
+.PHONY : RootOfAVL.cpp.o
+
+RootOfAVL.i: RootOfAVL.cpp.i
+
+.PHONY : RootOfAVL.i
+
+# target to preprocess a source file
+RootOfAVL.cpp.i:
+	$(MAKE) -f CMakeFiles/RootOfAVL.dir/build.make CMakeFiles/RootOfAVL.dir/RootOfAVL.cpp.i
+.PHONY : RootOfAVL.cpp.i
+
+RootOfAVL.s: RootOfAVL.cpp.s
+
+.PHONY : RootOfAVL.s
+
+# target to generate assembly for a file
+RootOfAVL.cpp.s:
+	$(MAKE) -f CMakeFiles/RootOfAVL.dir/build.make CMakeFiles/RootOfAVL.dir/RootOfAVL.cpp.s
+.PHONY : RootOfAVL.cpp.s
 
 TreeTravesal.o: TreeTravesal.cpp.o
 
@@ -270,6 +643,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/MOOC.dir/build.make CMakeFiles/MOOC.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+popsequence.o: popsequence.cpp.o
+
+.PHONY : popsequence.o
+
+# target to build an object file
+popsequence.cpp.o:
+	$(MAKE) -f CMakeFiles/popsequence.dir/build.make CMakeFiles/popsequence.dir/popsequence.cpp.o
+.PHONY : popsequence.cpp.o
+
+popsequence.i: popsequence.cpp.i
+
+.PHONY : popsequence.i
+
+# target to preprocess a source file
+popsequence.cpp.i:
+	$(MAKE) -f CMakeFiles/popsequence.dir/build.make CMakeFiles/popsequence.dir/popsequence.cpp.i
+.PHONY : popsequence.cpp.i
+
+popsequence.s: popsequence.cpp.s
+
+.PHONY : popsequence.s
+
+# target to generate assembly for a file
+popsequence.cpp.s:
+	$(MAKE) -f CMakeFiles/popsequence.dir/build.make CMakeFiles/popsequence.dir/popsequence.cpp.s
+.PHONY : popsequence.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -277,23 +677,63 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... ListLeaves"
-	@echo "... TreeTravesal"
 	@echo "... edit_cache"
+	@echo "... ConnectedSet"
+	@echo "... popsequence"
+	@echo "... MaxHeap"
+	@echo "... FileTransfer"
+	@echo "... HuffmanTree"
+	@echo "... Graph"
+	@echo "... RootOfAVL"
+	@echo "... ReverseLinkedList"
+	@echo "... CompleteBinTree"
+	@echo "... BinTreeOperator"
 	@echo "... BinTree"
+	@echo "... TreeTravesal"
+	@echo "... ListLeaves"
 	@echo "... MOOC"
 	@echo "... BinTree.o"
 	@echo "... BinTree.i"
 	@echo "... BinTree.s"
+	@echo "... BinTreeOperator.o"
+	@echo "... BinTreeOperator.i"
+	@echo "... BinTreeOperator.s"
+	@echo "... CompleteBinTree.o"
+	@echo "... CompleteBinTree.i"
+	@echo "... CompleteBinTree.s"
+	@echo "... ConnectedSet.o"
+	@echo "... ConnectedSet.i"
+	@echo "... ConnectedSet.s"
+	@echo "... FileTransfer.o"
+	@echo "... FileTransfer.i"
+	@echo "... FileTransfer.s"
+	@echo "... Graph.o"
+	@echo "... Graph.i"
+	@echo "... Graph.s"
+	@echo "... HuffmanTree.o"
+	@echo "... HuffmanTree.i"
+	@echo "... HuffmanTree.s"
 	@echo "... ListLeaves.o"
 	@echo "... ListLeaves.i"
 	@echo "... ListLeaves.s"
+	@echo "... MaxHeap.o"
+	@echo "... MaxHeap.i"
+	@echo "... MaxHeap.s"
+	@echo "... ReverseLinkedList.o"
+	@echo "... ReverseLinkedList.i"
+	@echo "... ReverseLinkedList.s"
+	@echo "... RootOfAVL.o"
+	@echo "... RootOfAVL.i"
+	@echo "... RootOfAVL.s"
 	@echo "... TreeTravesal.o"
 	@echo "... TreeTravesal.i"
 	@echo "... TreeTravesal.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... popsequence.o"
+	@echo "... popsequence.i"
+	@echo "... popsequence.s"
 .PHONY : help
 
 
