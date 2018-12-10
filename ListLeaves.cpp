@@ -17,20 +17,20 @@ struct TreeNode {
 };
 
 struct TreeNode T1[MaxElement];
-int N = 0;
+int m = 0;
 
 // 构建树并返回根节点
 Tree BuildTree(struct TreeNode T[]) {
-    cin >> N;
+    cin >> m;
     char left, right;
     int check[MaxElement], root = Null;
     
 
-    for (int j = 0; j < N; ++j) {
+    for (int j = 0; j < m; ++j) {
         check[j] = 0;
     }
 
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < m; ++i) {
         T[i].value = i;
         cin >> left >> right;
         if (left != '-') {
@@ -45,7 +45,7 @@ Tree BuildTree(struct TreeNode T[]) {
             T[i].Right = Null;
     }
 
-    for (int k = 0; k < N; ++k) {
+    for (int k = 0; k < m; ++k) {
         if (check[k] == 0) {
             root = k;
         }

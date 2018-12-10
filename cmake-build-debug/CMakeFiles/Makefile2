@@ -65,13 +65,235 @@ CMAKE_SOURCE_DIR = /Users/allenhsu/CLionProjects/MOOC
 CMAKE_BINARY_DIR = /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/learnA.dir
+
+# All Build rule for target.
+CMakeFiles/learnA.dir/all:
+	$(MAKE) -f CMakeFiles/learnA.dir/build.make CMakeFiles/learnA.dir/depend
+	$(MAKE) -f CMakeFiles/learnA.dir/build.make CMakeFiles/learnA.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target learnA"
+.PHONY : CMakeFiles/learnA.dir/all
+
+# Include target in all.
+all: CMakeFiles/learnA.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/learnA.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/learnA.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/learnA.dir/rule
+
+# Convenience name for target.
+learnA: CMakeFiles/learnA.dir/rule
+
+.PHONY : learnA
+
+# clean rule for target.
+CMakeFiles/learnA.dir/clean:
+	$(MAKE) -f CMakeFiles/learnA.dir/build.make CMakeFiles/learnA.dir/clean
+.PHONY : CMakeFiles/learnA.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/learnA.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/7_2HarryPotter.dir
+
+# All Build rule for target.
+CMakeFiles/7_2HarryPotter.dir/all:
+	$(MAKE) -f CMakeFiles/7_2HarryPotter.dir/build.make CMakeFiles/7_2HarryPotter.dir/depend
+	$(MAKE) -f CMakeFiles/7_2HarryPotter.dir/build.make CMakeFiles/7_2HarryPotter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 7_2HarryPotter"
+.PHONY : CMakeFiles/7_2HarryPotter.dir/all
+
+# Include target in all.
+all: CMakeFiles/7_2HarryPotter.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/7_2HarryPotter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/7_2HarryPotter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/7_2HarryPotter.dir/rule
+
+# Convenience name for target.
+7_2HarryPotter: CMakeFiles/7_2HarryPotter.dir/rule
+
+.PHONY : 7_2HarryPotter
+
+# clean rule for target.
+CMakeFiles/7_2HarryPotter.dir/clean:
+	$(MAKE) -f CMakeFiles/7_2HarryPotter.dir/build.make CMakeFiles/7_2HarryPotter.dir/clean
+.PHONY : CMakeFiles/7_2HarryPotter.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/7_2HarryPotter.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/7_1Hard007.dir
+
+# All Build rule for target.
+CMakeFiles/7_1Hard007.dir/all:
+	$(MAKE) -f CMakeFiles/7_1Hard007.dir/build.make CMakeFiles/7_1Hard007.dir/depend
+	$(MAKE) -f CMakeFiles/7_1Hard007.dir/build.make CMakeFiles/7_1Hard007.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 7_1Hard007"
+.PHONY : CMakeFiles/7_1Hard007.dir/all
+
+# Include target in all.
+all: CMakeFiles/7_1Hard007.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/7_1Hard007.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/7_1Hard007.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/7_1Hard007.dir/rule
+
+# Convenience name for target.
+7_1Hard007: CMakeFiles/7_1Hard007.dir/rule
+
+.PHONY : 7_1Hard007
+
+# clean rule for target.
+CMakeFiles/7_1Hard007.dir/clean:
+	$(MAKE) -f CMakeFiles/7_1Hard007.dir/build.make CMakeFiles/7_1Hard007.dir/clean
+.PHONY : CMakeFiles/7_1Hard007.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/7_1Hard007.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Sort.dir
+
+# All Build rule for target.
+CMakeFiles/Sort.dir/all:
+	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/depend
+	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target Sort"
+.PHONY : CMakeFiles/Sort.dir/all
+
+# Include target in all.
+all: CMakeFiles/Sort.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Sort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Sort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Sort.dir/rule
+
+# Convenience name for target.
+Sort: CMakeFiles/Sort.dir/rule
+
+.PHONY : Sort
+
+# clean rule for target.
+CMakeFiles/Sort.dir/clean:
+	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/clean
+.PHONY : CMakeFiles/Sort.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Sort.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tempCompare.dir
+
+# All Build rule for target.
+CMakeFiles/tempCompare.dir/all:
+	$(MAKE) -f CMakeFiles/tempCompare.dir/build.make CMakeFiles/tempCompare.dir/depend
+	$(MAKE) -f CMakeFiles/tempCompare.dir/build.make CMakeFiles/tempCompare.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=46,47,48,49 "Built target tempCompare"
+.PHONY : CMakeFiles/tempCompare.dir/all
+
+# Include target in all.
+all: CMakeFiles/tempCompare.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tempCompare.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tempCompare.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tempCompare.dir/rule
+
+# Convenience name for target.
+tempCompare: CMakeFiles/tempCompare.dir/rule
+
+.PHONY : tempCompare
+
+# clean rule for target.
+CMakeFiles/tempCompare.dir/clean:
+	$(MAKE) -f CMakeFiles/tempCompare.dir/build.make CMakeFiles/tempCompare.dir/clean
+.PHONY : CMakeFiles/tempCompare.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tempCompare.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/6_2save007.dir
+
+# All Build rule for target.
+CMakeFiles/6_2save007.dir/all:
+	$(MAKE) -f CMakeFiles/6_2save007.dir/build.make CMakeFiles/6_2save007.dir/depend
+	$(MAKE) -f CMakeFiles/6_2save007.dir/build.make CMakeFiles/6_2save007.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 6_2save007"
+.PHONY : CMakeFiles/6_2save007.dir/all
+
+# Include target in all.
+all: CMakeFiles/6_2save007.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/6_2save007.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/6_2save007.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/6_2save007.dir/rule
+
+# Convenience name for target.
+6_2save007: CMakeFiles/6_2save007.dir/rule
+
+.PHONY : 6_2save007
+
+# clean rule for target.
+CMakeFiles/6_2save007.dir/clean:
+	$(MAKE) -f CMakeFiles/6_2save007.dir/build.make CMakeFiles/6_2save007.dir/clean
+.PHONY : CMakeFiles/6_2save007.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/6_2save007.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ConnectedSet.dir
 
 # All Build rule for target.
 CMakeFiles/ConnectedSet.dir/all:
 	$(MAKE) -f CMakeFiles/ConnectedSet.dir/build.make CMakeFiles/ConnectedSet.dir/depend
 	$(MAKE) -f CMakeFiles/ConnectedSet.dir/build.make CMakeFiles/ConnectedSet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target ConnectedSet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target ConnectedSet"
 .PHONY : CMakeFiles/ConnectedSet.dir/all
 
 # Include target in all.
@@ -108,7 +330,7 @@ clean: CMakeFiles/ConnectedSet.dir/clean
 CMakeFiles/popsequence.dir/all:
 	$(MAKE) -f CMakeFiles/popsequence.dir/build.make CMakeFiles/popsequence.dir/depend
 	$(MAKE) -f CMakeFiles/popsequence.dir/build.make CMakeFiles/popsequence.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target popsequence"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target popsequence"
 .PHONY : CMakeFiles/popsequence.dir/all
 
 # Include target in all.
@@ -145,7 +367,7 @@ clean: CMakeFiles/popsequence.dir/clean
 CMakeFiles/MaxHeap.dir/all:
 	$(MAKE) -f CMakeFiles/MaxHeap.dir/build.make CMakeFiles/MaxHeap.dir/depend
 	$(MAKE) -f CMakeFiles/MaxHeap.dir/build.make CMakeFiles/MaxHeap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target MaxHeap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target MaxHeap"
 .PHONY : CMakeFiles/MaxHeap.dir/all
 
 # Include target in all.
@@ -182,7 +404,7 @@ clean: CMakeFiles/MaxHeap.dir/clean
 CMakeFiles/FileTransfer.dir/all:
 	$(MAKE) -f CMakeFiles/FileTransfer.dir/build.make CMakeFiles/FileTransfer.dir/depend
 	$(MAKE) -f CMakeFiles/FileTransfer.dir/build.make CMakeFiles/FileTransfer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target FileTransfer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target FileTransfer"
 .PHONY : CMakeFiles/FileTransfer.dir/all
 
 # Include target in all.
@@ -219,7 +441,7 @@ clean: CMakeFiles/FileTransfer.dir/clean
 CMakeFiles/HuffmanTree.dir/all:
 	$(MAKE) -f CMakeFiles/HuffmanTree.dir/build.make CMakeFiles/HuffmanTree.dir/depend
 	$(MAKE) -f CMakeFiles/HuffmanTree.dir/build.make CMakeFiles/HuffmanTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target HuffmanTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target HuffmanTree"
 .PHONY : CMakeFiles/HuffmanTree.dir/all
 
 # Include target in all.
@@ -250,13 +472,161 @@ clean: CMakeFiles/HuffmanTree.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/TreeTravesal.dir
+
+# All Build rule for target.
+CMakeFiles/TreeTravesal.dir/all:
+	$(MAKE) -f CMakeFiles/TreeTravesal.dir/build.make CMakeFiles/TreeTravesal.dir/depend
+	$(MAKE) -f CMakeFiles/TreeTravesal.dir/build.make CMakeFiles/TreeTravesal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target TreeTravesal"
+.PHONY : CMakeFiles/TreeTravesal.dir/all
+
+# Include target in all.
+all: CMakeFiles/TreeTravesal.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/TreeTravesal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TreeTravesal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/TreeTravesal.dir/rule
+
+# Convenience name for target.
+TreeTravesal: CMakeFiles/TreeTravesal.dir/rule
+
+.PHONY : TreeTravesal
+
+# clean rule for target.
+CMakeFiles/TreeTravesal.dir/clean:
+	$(MAKE) -f CMakeFiles/TreeTravesal.dir/build.make CMakeFiles/TreeTravesal.dir/clean
+.PHONY : CMakeFiles/TreeTravesal.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/TreeTravesal.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Astar.dir
+
+# All Build rule for target.
+CMakeFiles/Astar.dir/all:
+	$(MAKE) -f CMakeFiles/Astar.dir/build.make CMakeFiles/Astar.dir/depend
+	$(MAKE) -f CMakeFiles/Astar.dir/build.make CMakeFiles/Astar.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target Astar"
+.PHONY : CMakeFiles/Astar.dir/all
+
+# Include target in all.
+all: CMakeFiles/Astar.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Astar.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Astar.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Astar.dir/rule
+
+# Convenience name for target.
+Astar: CMakeFiles/Astar.dir/rule
+
+.PHONY : Astar
+
+# clean rule for target.
+CMakeFiles/Astar.dir/clean:
+	$(MAKE) -f CMakeFiles/Astar.dir/build.make CMakeFiles/Astar.dir/clean
+.PHONY : CMakeFiles/Astar.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Astar.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/test.dir
+
+# All Build rule for target.
+CMakeFiles/test.dir/all:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target test"
+.PHONY : CMakeFiles/test.dir/all
+
+# Include target in all.
+all: CMakeFiles/test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: CMakeFiles/test.dir/rule
+
+.PHONY : test
+
+# clean rule for target.
+CMakeFiles/test.dir/clean:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/DFSBFS.dir
+
+# All Build rule for target.
+CMakeFiles/DFSBFS.dir/all:
+	$(MAKE) -f CMakeFiles/DFSBFS.dir/build.make CMakeFiles/DFSBFS.dir/depend
+	$(MAKE) -f CMakeFiles/DFSBFS.dir/build.make CMakeFiles/DFSBFS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target DFSBFS"
+.PHONY : CMakeFiles/DFSBFS.dir/all
+
+# Include target in all.
+all: CMakeFiles/DFSBFS.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/DFSBFS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DFSBFS.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/DFSBFS.dir/rule
+
+# Convenience name for target.
+DFSBFS: CMakeFiles/DFSBFS.dir/rule
+
+.PHONY : DFSBFS
+
+# clean rule for target.
+CMakeFiles/DFSBFS.dir/clean:
+	$(MAKE) -f CMakeFiles/DFSBFS.dir/build.make CMakeFiles/DFSBFS.dir/clean
+.PHONY : CMakeFiles/DFSBFS.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/DFSBFS.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Graph.dir
 
 # All Build rule for target.
 CMakeFiles/Graph.dir/all:
 	$(MAKE) -f CMakeFiles/Graph.dir/build.make CMakeFiles/Graph.dir/depend
 	$(MAKE) -f CMakeFiles/Graph.dir/build.make CMakeFiles/Graph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target Graph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target Graph"
 .PHONY : CMakeFiles/Graph.dir/all
 
 # Include target in all.
@@ -293,7 +663,7 @@ clean: CMakeFiles/Graph.dir/clean
 CMakeFiles/RootOfAVL.dir/all:
 	$(MAKE) -f CMakeFiles/RootOfAVL.dir/build.make CMakeFiles/RootOfAVL.dir/depend
 	$(MAKE) -f CMakeFiles/RootOfAVL.dir/build.make CMakeFiles/RootOfAVL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target RootOfAVL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target RootOfAVL"
 .PHONY : CMakeFiles/RootOfAVL.dir/all
 
 # Include target in all.
@@ -324,13 +694,50 @@ clean: CMakeFiles/RootOfAVL.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/BinTree.dir
+
+# All Build rule for target.
+CMakeFiles/BinTree.dir/all:
+	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/depend
+	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target BinTree"
+.PHONY : CMakeFiles/BinTree.dir/all
+
+# Include target in all.
+all: CMakeFiles/BinTree.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BinTree.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BinTree.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/BinTree.dir/rule
+
+# Convenience name for target.
+BinTree: CMakeFiles/BinTree.dir/rule
+
+.PHONY : BinTree
+
+# clean rule for target.
+CMakeFiles/BinTree.dir/clean:
+	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/clean
+.PHONY : CMakeFiles/BinTree.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BinTree.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ReverseLinkedList.dir
 
 # All Build rule for target.
 CMakeFiles/ReverseLinkedList.dir/all:
 	$(MAKE) -f CMakeFiles/ReverseLinkedList.dir/build.make CMakeFiles/ReverseLinkedList.dir/depend
 	$(MAKE) -f CMakeFiles/ReverseLinkedList.dir/build.make CMakeFiles/ReverseLinkedList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target ReverseLinkedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target ReverseLinkedList"
 .PHONY : CMakeFiles/ReverseLinkedList.dir/all
 
 # Include target in all.
@@ -367,7 +774,7 @@ clean: CMakeFiles/ReverseLinkedList.dir/clean
 CMakeFiles/CompleteBinTree.dir/all:
 	$(MAKE) -f CMakeFiles/CompleteBinTree.dir/build.make CMakeFiles/CompleteBinTree.dir/depend
 	$(MAKE) -f CMakeFiles/CompleteBinTree.dir/build.make CMakeFiles/CompleteBinTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target CompleteBinTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target CompleteBinTree"
 .PHONY : CMakeFiles/CompleteBinTree.dir/all
 
 # Include target in all.
@@ -404,7 +811,7 @@ clean: CMakeFiles/CompleteBinTree.dir/clean
 CMakeFiles/BinTreeOperator.dir/all:
 	$(MAKE) -f CMakeFiles/BinTreeOperator.dir/build.make CMakeFiles/BinTreeOperator.dir/depend
 	$(MAKE) -f CMakeFiles/BinTreeOperator.dir/build.make CMakeFiles/BinTreeOperator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target BinTreeOperator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target BinTreeOperator"
 .PHONY : CMakeFiles/BinTreeOperator.dir/all
 
 # Include target in all.
@@ -435,76 +842,39 @@ clean: CMakeFiles/BinTreeOperator.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/BinTree.dir
+# Target rules for target CMakeFiles/6_3SDS.dir
 
 # All Build rule for target.
-CMakeFiles/BinTree.dir/all:
-	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/depend
-	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target BinTree"
-.PHONY : CMakeFiles/BinTree.dir/all
+CMakeFiles/6_3SDS.dir/all:
+	$(MAKE) -f CMakeFiles/6_3SDS.dir/build.make CMakeFiles/6_3SDS.dir/depend
+	$(MAKE) -f CMakeFiles/6_3SDS.dir/build.make CMakeFiles/6_3SDS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 6_3SDS"
+.PHONY : CMakeFiles/6_3SDS.dir/all
 
 # Include target in all.
-all: CMakeFiles/BinTree.dir/all
+all: CMakeFiles/6_3SDS.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/BinTree.dir/rule: cmake_check_build_system
+CMakeFiles/6_3SDS.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BinTree.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/6_3SDS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/BinTree.dir/rule
+.PHONY : CMakeFiles/6_3SDS.dir/rule
 
 # Convenience name for target.
-BinTree: CMakeFiles/BinTree.dir/rule
+6_3SDS: CMakeFiles/6_3SDS.dir/rule
 
-.PHONY : BinTree
-
-# clean rule for target.
-CMakeFiles/BinTree.dir/clean:
-	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/clean
-.PHONY : CMakeFiles/BinTree.dir/clean
+.PHONY : 6_3SDS
 
 # clean rule for target.
-clean: CMakeFiles/BinTree.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/TreeTravesal.dir
-
-# All Build rule for target.
-CMakeFiles/TreeTravesal.dir/all:
-	$(MAKE) -f CMakeFiles/TreeTravesal.dir/build.make CMakeFiles/TreeTravesal.dir/depend
-	$(MAKE) -f CMakeFiles/TreeTravesal.dir/build.make CMakeFiles/TreeTravesal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target TreeTravesal"
-.PHONY : CMakeFiles/TreeTravesal.dir/all
-
-# Include target in all.
-all: CMakeFiles/TreeTravesal.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/TreeTravesal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TreeTravesal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/TreeTravesal.dir/rule
-
-# Convenience name for target.
-TreeTravesal: CMakeFiles/TreeTravesal.dir/rule
-
-.PHONY : TreeTravesal
+CMakeFiles/6_3SDS.dir/clean:
+	$(MAKE) -f CMakeFiles/6_3SDS.dir/build.make CMakeFiles/6_3SDS.dir/clean
+.PHONY : CMakeFiles/6_3SDS.dir/clean
 
 # clean rule for target.
-CMakeFiles/TreeTravesal.dir/clean:
-	$(MAKE) -f CMakeFiles/TreeTravesal.dir/build.make CMakeFiles/TreeTravesal.dir/clean
-.PHONY : CMakeFiles/TreeTravesal.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/TreeTravesal.dir/clean
+clean: CMakeFiles/6_3SDS.dir/clean
 
 .PHONY : clean
 
@@ -515,7 +885,7 @@ clean: CMakeFiles/TreeTravesal.dir/clean
 CMakeFiles/ListLeaves.dir/all:
 	$(MAKE) -f CMakeFiles/ListLeaves.dir/build.make CMakeFiles/ListLeaves.dir/depend
 	$(MAKE) -f CMakeFiles/ListLeaves.dir/build.make CMakeFiles/ListLeaves.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target ListLeaves"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target ListLeaves"
 .PHONY : CMakeFiles/ListLeaves.dir/all
 
 # Include target in all.
@@ -552,7 +922,7 @@ clean: CMakeFiles/ListLeaves.dir/clean
 CMakeFiles/MOOC.dir/all:
 	$(MAKE) -f CMakeFiles/MOOC.dir/build.make CMakeFiles/MOOC.dir/depend
 	$(MAKE) -f CMakeFiles/MOOC.dir/build.make CMakeFiles/MOOC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target MOOC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles --progress-num=29,30,31 "Built target MOOC"
 .PHONY : CMakeFiles/MOOC.dir/all
 
 # Include target in all.
@@ -562,7 +932,7 @@ all: CMakeFiles/MOOC.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MOOC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MOOC.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/MOOC.dir/rule

@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/allenhsu/CLionProjects/MOOC/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,84 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named learnA
+
+# Build rule for target.
+learnA: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learnA
+.PHONY : learnA
+
+# fast build rule for target.
+learnA/fast:
+	$(MAKE) -f CMakeFiles/learnA.dir/build.make CMakeFiles/learnA.dir/build
+.PHONY : learnA/fast
+
+#=============================================================================
+# Target rules for targets named 7_2HarryPotter
+
+# Build rule for target.
+7_2HarryPotter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 7_2HarryPotter
+.PHONY : 7_2HarryPotter
+
+# fast build rule for target.
+7_2HarryPotter/fast:
+	$(MAKE) -f CMakeFiles/7_2HarryPotter.dir/build.make CMakeFiles/7_2HarryPotter.dir/build
+.PHONY : 7_2HarryPotter/fast
+
+#=============================================================================
+# Target rules for targets named 7_1Hard007
+
+# Build rule for target.
+7_1Hard007: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 7_1Hard007
+.PHONY : 7_1Hard007
+
+# fast build rule for target.
+7_1Hard007/fast:
+	$(MAKE) -f CMakeFiles/7_1Hard007.dir/build.make CMakeFiles/7_1Hard007.dir/build
+.PHONY : 7_1Hard007/fast
+
+#=============================================================================
+# Target rules for targets named Sort
+
+# Build rule for target.
+Sort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Sort
+.PHONY : Sort
+
+# fast build rule for target.
+Sort/fast:
+	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/build
+.PHONY : Sort/fast
+
+#=============================================================================
+# Target rules for targets named tempCompare
+
+# Build rule for target.
+tempCompare: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tempCompare
+.PHONY : tempCompare
+
+# fast build rule for target.
+tempCompare/fast:
+	$(MAKE) -f CMakeFiles/tempCompare.dir/build.make CMakeFiles/tempCompare.dir/build
+.PHONY : tempCompare/fast
+
+#=============================================================================
+# Target rules for targets named 6_2save007
+
+# Build rule for target.
+6_2save007: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 6_2save007
+.PHONY : 6_2save007
+
+# fast build rule for target.
+6_2save007/fast:
+	$(MAKE) -f CMakeFiles/6_2save007.dir/build.make CMakeFiles/6_2save007.dir/build
+.PHONY : 6_2save007/fast
 
 #=============================================================================
 # Target rules for targets named ConnectedSet
@@ -176,6 +254,58 @@ HuffmanTree/fast:
 .PHONY : HuffmanTree/fast
 
 #=============================================================================
+# Target rules for targets named TreeTravesal
+
+# Build rule for target.
+TreeTravesal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TreeTravesal
+.PHONY : TreeTravesal
+
+# fast build rule for target.
+TreeTravesal/fast:
+	$(MAKE) -f CMakeFiles/TreeTravesal.dir/build.make CMakeFiles/TreeTravesal.dir/build
+.PHONY : TreeTravesal/fast
+
+#=============================================================================
+# Target rules for targets named Astar
+
+# Build rule for target.
+Astar: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Astar
+.PHONY : Astar
+
+# fast build rule for target.
+Astar/fast:
+	$(MAKE) -f CMakeFiles/Astar.dir/build.make CMakeFiles/Astar.dir/build
+.PHONY : Astar/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named DFSBFS
+
+# Build rule for target.
+DFSBFS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DFSBFS
+.PHONY : DFSBFS
+
+# fast build rule for target.
+DFSBFS/fast:
+	$(MAKE) -f CMakeFiles/DFSBFS.dir/build.make CMakeFiles/DFSBFS.dir/build
+.PHONY : DFSBFS/fast
+
+#=============================================================================
 # Target rules for targets named Graph
 
 # Build rule for target.
@@ -200,6 +330,19 @@ RootOfAVL: cmake_check_build_system
 RootOfAVL/fast:
 	$(MAKE) -f CMakeFiles/RootOfAVL.dir/build.make CMakeFiles/RootOfAVL.dir/build
 .PHONY : RootOfAVL/fast
+
+#=============================================================================
+# Target rules for targets named BinTree
+
+# Build rule for target.
+BinTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BinTree
+.PHONY : BinTree
+
+# fast build rule for target.
+BinTree/fast:
+	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/build
+.PHONY : BinTree/fast
 
 #=============================================================================
 # Target rules for targets named ReverseLinkedList
@@ -241,30 +384,17 @@ BinTreeOperator/fast:
 .PHONY : BinTreeOperator/fast
 
 #=============================================================================
-# Target rules for targets named BinTree
+# Target rules for targets named 6_3SDS
 
 # Build rule for target.
-BinTree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BinTree
-.PHONY : BinTree
+6_3SDS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 6_3SDS
+.PHONY : 6_3SDS
 
 # fast build rule for target.
-BinTree/fast:
-	$(MAKE) -f CMakeFiles/BinTree.dir/build.make CMakeFiles/BinTree.dir/build
-.PHONY : BinTree/fast
-
-#=============================================================================
-# Target rules for targets named TreeTravesal
-
-# Build rule for target.
-TreeTravesal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TreeTravesal
-.PHONY : TreeTravesal
-
-# fast build rule for target.
-TreeTravesal/fast:
-	$(MAKE) -f CMakeFiles/TreeTravesal.dir/build.make CMakeFiles/TreeTravesal.dir/build
-.PHONY : TreeTravesal/fast
+6_3SDS/fast:
+	$(MAKE) -f CMakeFiles/6_3SDS.dir/build.make CMakeFiles/6_3SDS.dir/build
+.PHONY : 6_3SDS/fast
 
 #=============================================================================
 # Target rules for targets named ListLeaves
@@ -291,6 +421,141 @@ MOOC: cmake_check_build_system
 MOOC/fast:
 	$(MAKE) -f CMakeFiles/MOOC.dir/build.make CMakeFiles/MOOC.dir/build
 .PHONY : MOOC/fast
+
+6_2save007.o: 6_2save007.cpp.o
+
+.PHONY : 6_2save007.o
+
+# target to build an object file
+6_2save007.cpp.o:
+	$(MAKE) -f CMakeFiles/6_2save007.dir/build.make CMakeFiles/6_2save007.dir/6_2save007.cpp.o
+.PHONY : 6_2save007.cpp.o
+
+6_2save007.i: 6_2save007.cpp.i
+
+.PHONY : 6_2save007.i
+
+# target to preprocess a source file
+6_2save007.cpp.i:
+	$(MAKE) -f CMakeFiles/6_2save007.dir/build.make CMakeFiles/6_2save007.dir/6_2save007.cpp.i
+.PHONY : 6_2save007.cpp.i
+
+6_2save007.s: 6_2save007.cpp.s
+
+.PHONY : 6_2save007.s
+
+# target to generate assembly for a file
+6_2save007.cpp.s:
+	$(MAKE) -f CMakeFiles/6_2save007.dir/build.make CMakeFiles/6_2save007.dir/6_2save007.cpp.s
+.PHONY : 6_2save007.cpp.s
+
+6_3SDS.o: 6_3SDS.cpp.o
+
+.PHONY : 6_3SDS.o
+
+# target to build an object file
+6_3SDS.cpp.o:
+	$(MAKE) -f CMakeFiles/6_3SDS.dir/build.make CMakeFiles/6_3SDS.dir/6_3SDS.cpp.o
+.PHONY : 6_3SDS.cpp.o
+
+6_3SDS.i: 6_3SDS.cpp.i
+
+.PHONY : 6_3SDS.i
+
+# target to preprocess a source file
+6_3SDS.cpp.i:
+	$(MAKE) -f CMakeFiles/6_3SDS.dir/build.make CMakeFiles/6_3SDS.dir/6_3SDS.cpp.i
+.PHONY : 6_3SDS.cpp.i
+
+6_3SDS.s: 6_3SDS.cpp.s
+
+.PHONY : 6_3SDS.s
+
+# target to generate assembly for a file
+6_3SDS.cpp.s:
+	$(MAKE) -f CMakeFiles/6_3SDS.dir/build.make CMakeFiles/6_3SDS.dir/6_3SDS.cpp.s
+.PHONY : 6_3SDS.cpp.s
+
+7_1Hard007.o: 7_1Hard007.cpp.o
+
+.PHONY : 7_1Hard007.o
+
+# target to build an object file
+7_1Hard007.cpp.o:
+	$(MAKE) -f CMakeFiles/7_1Hard007.dir/build.make CMakeFiles/7_1Hard007.dir/7_1Hard007.cpp.o
+.PHONY : 7_1Hard007.cpp.o
+
+7_1Hard007.i: 7_1Hard007.cpp.i
+
+.PHONY : 7_1Hard007.i
+
+# target to preprocess a source file
+7_1Hard007.cpp.i:
+	$(MAKE) -f CMakeFiles/7_1Hard007.dir/build.make CMakeFiles/7_1Hard007.dir/7_1Hard007.cpp.i
+.PHONY : 7_1Hard007.cpp.i
+
+7_1Hard007.s: 7_1Hard007.cpp.s
+
+.PHONY : 7_1Hard007.s
+
+# target to generate assembly for a file
+7_1Hard007.cpp.s:
+	$(MAKE) -f CMakeFiles/7_1Hard007.dir/build.make CMakeFiles/7_1Hard007.dir/7_1Hard007.cpp.s
+.PHONY : 7_1Hard007.cpp.s
+
+7_2HarryPotter.o: 7_2HarryPotter.cpp.o
+
+.PHONY : 7_2HarryPotter.o
+
+# target to build an object file
+7_2HarryPotter.cpp.o:
+	$(MAKE) -f CMakeFiles/7_2HarryPotter.dir/build.make CMakeFiles/7_2HarryPotter.dir/7_2HarryPotter.cpp.o
+.PHONY : 7_2HarryPotter.cpp.o
+
+7_2HarryPotter.i: 7_2HarryPotter.cpp.i
+
+.PHONY : 7_2HarryPotter.i
+
+# target to preprocess a source file
+7_2HarryPotter.cpp.i:
+	$(MAKE) -f CMakeFiles/7_2HarryPotter.dir/build.make CMakeFiles/7_2HarryPotter.dir/7_2HarryPotter.cpp.i
+.PHONY : 7_2HarryPotter.cpp.i
+
+7_2HarryPotter.s: 7_2HarryPotter.cpp.s
+
+.PHONY : 7_2HarryPotter.s
+
+# target to generate assembly for a file
+7_2HarryPotter.cpp.s:
+	$(MAKE) -f CMakeFiles/7_2HarryPotter.dir/build.make CMakeFiles/7_2HarryPotter.dir/7_2HarryPotter.cpp.s
+.PHONY : 7_2HarryPotter.cpp.s
+
+Astar.o: Astar.cpp.o
+
+.PHONY : Astar.o
+
+# target to build an object file
+Astar.cpp.o:
+	$(MAKE) -f CMakeFiles/Astar.dir/build.make CMakeFiles/Astar.dir/Astar.cpp.o
+.PHONY : Astar.cpp.o
+
+Astar.i: Astar.cpp.i
+
+.PHONY : Astar.i
+
+# target to preprocess a source file
+Astar.cpp.i:
+	$(MAKE) -f CMakeFiles/Astar.dir/build.make CMakeFiles/Astar.dir/Astar.cpp.i
+.PHONY : Astar.cpp.i
+
+Astar.s: Astar.cpp.s
+
+.PHONY : Astar.s
+
+# target to generate assembly for a file
+Astar.cpp.s:
+	$(MAKE) -f CMakeFiles/Astar.dir/build.make CMakeFiles/Astar.dir/Astar.cpp.s
+.PHONY : Astar.cpp.s
 
 BinTree.o: BinTree.cpp.o
 
@@ -400,6 +665,33 @@ ConnectedSet.cpp.s:
 	$(MAKE) -f CMakeFiles/ConnectedSet.dir/build.make CMakeFiles/ConnectedSet.dir/ConnectedSet.cpp.s
 .PHONY : ConnectedSet.cpp.s
 
+DFSBFS.o: DFSBFS.cpp.o
+
+.PHONY : DFSBFS.o
+
+# target to build an object file
+DFSBFS.cpp.o:
+	$(MAKE) -f CMakeFiles/DFSBFS.dir/build.make CMakeFiles/DFSBFS.dir/DFSBFS.cpp.o
+.PHONY : DFSBFS.cpp.o
+
+DFSBFS.i: DFSBFS.cpp.i
+
+.PHONY : DFSBFS.i
+
+# target to preprocess a source file
+DFSBFS.cpp.i:
+	$(MAKE) -f CMakeFiles/DFSBFS.dir/build.make CMakeFiles/DFSBFS.dir/DFSBFS.cpp.i
+.PHONY : DFSBFS.cpp.i
+
+DFSBFS.s: DFSBFS.cpp.s
+
+.PHONY : DFSBFS.s
+
+# target to generate assembly for a file
+DFSBFS.cpp.s:
+	$(MAKE) -f CMakeFiles/DFSBFS.dir/build.make CMakeFiles/DFSBFS.dir/DFSBFS.cpp.s
+.PHONY : DFSBFS.cpp.s
+
 FileTransfer.o: FileTransfer.cpp.o
 
 .PHONY : FileTransfer.o
@@ -508,6 +800,36 @@ ListLeaves.cpp.s:
 	$(MAKE) -f CMakeFiles/ListLeaves.dir/build.make CMakeFiles/ListLeaves.dir/ListLeaves.cpp.s
 .PHONY : ListLeaves.cpp.s
 
+MGraph.o: MGraph.cpp.o
+
+.PHONY : MGraph.o
+
+# target to build an object file
+MGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/tempCompare.dir/build.make CMakeFiles/tempCompare.dir/MGraph.cpp.o
+	$(MAKE) -f CMakeFiles/MOOC.dir/build.make CMakeFiles/MOOC.dir/MGraph.cpp.o
+.PHONY : MGraph.cpp.o
+
+MGraph.i: MGraph.cpp.i
+
+.PHONY : MGraph.i
+
+# target to preprocess a source file
+MGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/tempCompare.dir/build.make CMakeFiles/tempCompare.dir/MGraph.cpp.i
+	$(MAKE) -f CMakeFiles/MOOC.dir/build.make CMakeFiles/MOOC.dir/MGraph.cpp.i
+.PHONY : MGraph.cpp.i
+
+MGraph.s: MGraph.cpp.s
+
+.PHONY : MGraph.s
+
+# target to generate assembly for a file
+MGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/tempCompare.dir/build.make CMakeFiles/tempCompare.dir/MGraph.cpp.s
+	$(MAKE) -f CMakeFiles/MOOC.dir/build.make CMakeFiles/MOOC.dir/MGraph.cpp.s
+.PHONY : MGraph.cpp.s
+
 MaxHeap.o: MaxHeap.cpp.o
 
 .PHONY : MaxHeap.o
@@ -589,6 +911,33 @@ RootOfAVL.cpp.s:
 	$(MAKE) -f CMakeFiles/RootOfAVL.dir/build.make CMakeFiles/RootOfAVL.dir/RootOfAVL.cpp.s
 .PHONY : RootOfAVL.cpp.s
 
+Sort.o: Sort.cpp.o
+
+.PHONY : Sort.o
+
+# target to build an object file
+Sort.cpp.o:
+	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/Sort.cpp.o
+.PHONY : Sort.cpp.o
+
+Sort.i: Sort.cpp.i
+
+.PHONY : Sort.i
+
+# target to preprocess a source file
+Sort.cpp.i:
+	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/Sort.cpp.i
+.PHONY : Sort.cpp.i
+
+Sort.s: Sort.cpp.s
+
+.PHONY : Sort.s
+
+# target to generate assembly for a file
+Sort.cpp.s:
+	$(MAKE) -f CMakeFiles/Sort.dir/build.make CMakeFiles/Sort.dir/Sort.cpp.s
+.PHONY : Sort.cpp.s
+
 TreeTravesal.o: TreeTravesal.cpp.o
 
 .PHONY : TreeTravesal.o
@@ -615,6 +964,60 @@ TreeTravesal.s: TreeTravesal.cpp.s
 TreeTravesal.cpp.s:
 	$(MAKE) -f CMakeFiles/TreeTravesal.dir/build.make CMakeFiles/TreeTravesal.dir/TreeTravesal.cpp.s
 .PHONY : TreeTravesal.cpp.s
+
+learnA.o: learnA.cpp.o
+
+.PHONY : learnA.o
+
+# target to build an object file
+learnA.cpp.o:
+	$(MAKE) -f CMakeFiles/learnA.dir/build.make CMakeFiles/learnA.dir/learnA.cpp.o
+.PHONY : learnA.cpp.o
+
+learnA.i: learnA.cpp.i
+
+.PHONY : learnA.i
+
+# target to preprocess a source file
+learnA.cpp.i:
+	$(MAKE) -f CMakeFiles/learnA.dir/build.make CMakeFiles/learnA.dir/learnA.cpp.i
+.PHONY : learnA.cpp.i
+
+learnA.s: learnA.cpp.s
+
+.PHONY : learnA.s
+
+# target to generate assembly for a file
+learnA.cpp.s:
+	$(MAKE) -f CMakeFiles/learnA.dir/build.make CMakeFiles/learnA.dir/learnA.cpp.s
+.PHONY : learnA.cpp.s
+
+learnDijkstra.o: learnDijkstra.cpp.o
+
+.PHONY : learnDijkstra.o
+
+# target to build an object file
+learnDijkstra.cpp.o:
+	$(MAKE) -f CMakeFiles/tempCompare.dir/build.make CMakeFiles/tempCompare.dir/learnDijkstra.cpp.o
+.PHONY : learnDijkstra.cpp.o
+
+learnDijkstra.i: learnDijkstra.cpp.i
+
+.PHONY : learnDijkstra.i
+
+# target to preprocess a source file
+learnDijkstra.cpp.i:
+	$(MAKE) -f CMakeFiles/tempCompare.dir/build.make CMakeFiles/tempCompare.dir/learnDijkstra.cpp.i
+.PHONY : learnDijkstra.cpp.i
+
+learnDijkstra.s: learnDijkstra.cpp.s
+
+.PHONY : learnDijkstra.s
+
+# target to generate assembly for a file
+learnDijkstra.cpp.s:
+	$(MAKE) -f CMakeFiles/tempCompare.dir/build.make CMakeFiles/tempCompare.dir/learnDijkstra.cpp.s
+.PHONY : learnDijkstra.cpp.s
 
 main.o: main.cpp.o
 
@@ -670,28 +1073,107 @@ popsequence.cpp.s:
 	$(MAKE) -f CMakeFiles/popsequence.dir/build.make CMakeFiles/popsequence.dir/popsequence.cpp.s
 .PHONY : popsequence.cpp.s
 
+tempCompare.o: tempCompare.cpp.o
+
+.PHONY : tempCompare.o
+
+# target to build an object file
+tempCompare.cpp.o:
+	$(MAKE) -f CMakeFiles/tempCompare.dir/build.make CMakeFiles/tempCompare.dir/tempCompare.cpp.o
+.PHONY : tempCompare.cpp.o
+
+tempCompare.i: tempCompare.cpp.i
+
+.PHONY : tempCompare.i
+
+# target to preprocess a source file
+tempCompare.cpp.i:
+	$(MAKE) -f CMakeFiles/tempCompare.dir/build.make CMakeFiles/tempCompare.dir/tempCompare.cpp.i
+.PHONY : tempCompare.cpp.i
+
+tempCompare.s: tempCompare.cpp.s
+
+.PHONY : tempCompare.s
+
+# target to generate assembly for a file
+tempCompare.cpp.s:
+	$(MAKE) -f CMakeFiles/tempCompare.dir/build.make CMakeFiles/tempCompare.dir/tempCompare.cpp.s
+.PHONY : tempCompare.cpp.s
+
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... learnA"
+	@echo "... 7_2HarryPotter"
+	@echo "... 7_1Hard007"
+	@echo "... Sort"
+	@echo "... tempCompare"
+	@echo "... 6_2save007"
 	@echo "... ConnectedSet"
 	@echo "... popsequence"
+	@echo "... rebuild_cache"
 	@echo "... MaxHeap"
 	@echo "... FileTransfer"
 	@echo "... HuffmanTree"
+	@echo "... TreeTravesal"
+	@echo "... Astar"
+	@echo "... test"
+	@echo "... DFSBFS"
 	@echo "... Graph"
 	@echo "... RootOfAVL"
+	@echo "... BinTree"
 	@echo "... ReverseLinkedList"
 	@echo "... CompleteBinTree"
 	@echo "... BinTreeOperator"
-	@echo "... BinTree"
-	@echo "... TreeTravesal"
+	@echo "... 6_3SDS"
 	@echo "... ListLeaves"
 	@echo "... MOOC"
+	@echo "... 6_2save007.o"
+	@echo "... 6_2save007.i"
+	@echo "... 6_2save007.s"
+	@echo "... 6_3SDS.o"
+	@echo "... 6_3SDS.i"
+	@echo "... 6_3SDS.s"
+	@echo "... 7_1Hard007.o"
+	@echo "... 7_1Hard007.i"
+	@echo "... 7_1Hard007.s"
+	@echo "... 7_2HarryPotter.o"
+	@echo "... 7_2HarryPotter.i"
+	@echo "... 7_2HarryPotter.s"
+	@echo "... Astar.o"
+	@echo "... Astar.i"
+	@echo "... Astar.s"
 	@echo "... BinTree.o"
 	@echo "... BinTree.i"
 	@echo "... BinTree.s"
@@ -704,6 +1186,9 @@ help:
 	@echo "... ConnectedSet.o"
 	@echo "... ConnectedSet.i"
 	@echo "... ConnectedSet.s"
+	@echo "... DFSBFS.o"
+	@echo "... DFSBFS.i"
+	@echo "... DFSBFS.s"
 	@echo "... FileTransfer.o"
 	@echo "... FileTransfer.i"
 	@echo "... FileTransfer.s"
@@ -716,6 +1201,9 @@ help:
 	@echo "... ListLeaves.o"
 	@echo "... ListLeaves.i"
 	@echo "... ListLeaves.s"
+	@echo "... MGraph.o"
+	@echo "... MGraph.i"
+	@echo "... MGraph.s"
 	@echo "... MaxHeap.o"
 	@echo "... MaxHeap.i"
 	@echo "... MaxHeap.s"
@@ -725,15 +1213,30 @@ help:
 	@echo "... RootOfAVL.o"
 	@echo "... RootOfAVL.i"
 	@echo "... RootOfAVL.s"
+	@echo "... Sort.o"
+	@echo "... Sort.i"
+	@echo "... Sort.s"
 	@echo "... TreeTravesal.o"
 	@echo "... TreeTravesal.i"
 	@echo "... TreeTravesal.s"
+	@echo "... learnA.o"
+	@echo "... learnA.i"
+	@echo "... learnA.s"
+	@echo "... learnDijkstra.o"
+	@echo "... learnDijkstra.i"
+	@echo "... learnDijkstra.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... popsequence.o"
 	@echo "... popsequence.i"
 	@echo "... popsequence.s"
+	@echo "... tempCompare.o"
+	@echo "... tempCompare.i"
+	@echo "... tempCompare.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

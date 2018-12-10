@@ -11,11 +11,19 @@ struct ThisNode{
 };
 
 int visit[15] = {0};
+PThisNode graph[15];
+
 
 // 你记住，我们的图已经建立起来，没必要再做修改
 void DFS(int v){
     visit[v] = 1;   // 这就是来过这个点了
+    cout << v << " ";
 
+    for (PThisNode node = graph[v]; node ; node = node->next) {
+        if (!visit[node->value]){
+            DFS(node->value);
+        }
+    }
 }
 
 int main(){
@@ -23,7 +31,6 @@ int main(){
     int a, b;
     cin >> M >> N;
 
-    PThisNode graph[M];
 
     if (M > 0){
         for (int j = 0; j < M; ++j) {
@@ -45,6 +52,15 @@ int main(){
         node2->value = a;
         node2->next = graph[b]->next;
         graph[b]->next = node2;
+    }
+
+
+    for (int k = 0; k < M; ++k) {
+        if (!visit[k]){
+            cout << "{ ";
+            DFS(k);
+            cout << "}" << endl;
+        }
     }
 
     return 0;

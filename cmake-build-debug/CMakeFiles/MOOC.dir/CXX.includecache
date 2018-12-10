@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/allenhsu/CLionProjects/MOOC/main.cpp
+/Users/allenhsu/CLionProjects/MOOC/MGraph.cpp
 iostream
 -
-string
--
+
+/Users/allenhsu/CLionProjects/MOOC/main.cpp
+MGraph.cpp
+/Users/allenhsu/CLionProjects/MOOC/MGraph.cpp
 
